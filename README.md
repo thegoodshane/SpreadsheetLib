@@ -1,3 +1,9 @@
+- Spreadsheet ML library independent from Open XML SDK
+- Used to create, open, and modify Excel workbooks
+- Uses and packages raw XML according to ECMA-376 (Office Open XML specification)
+- Intuitive API supports multiple worksheets, styles, number formats, data validation
+- Tested with 166 unit tests and compatible with Excel 2007 - 2016+
+
 # Create
 ```csharp
 var wb = new Workbook(); // Create workbook.
